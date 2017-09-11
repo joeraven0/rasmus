@@ -1,2 +1,27 @@
 header
-  color: green
+  background-color: green
+  max-width: 1000px
+  margin: 50px
+  height: auto
+
+  .bg-box
+    background: url(/assets/img/header.jpg) no-repeat
+    max-width: 1000px
+    height: 350px
+
+  .logo
+    position: fixed
+    width: 250px
+    height: auto
+    left: 80px
+    top: 20px
+    +display(flex)
+
+  .linkbox
+    height: auto
+    font-size: 24px
+    text-align: center
+    padding-top: 5px
+    padding-bottom: 5px
+    background-color: $dgrey
+    color: $silver
